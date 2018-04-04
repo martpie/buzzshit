@@ -1,4 +1,5 @@
 const words = require('./dictionary');
+const regexp = new RegExp(`\\b(${words.join('|')})\\b`, 'gim');
 
 /**
  * Replace any buzzwords in a string by something a bit more realistic
@@ -6,14 +7,7 @@ const words = require('./dictionary');
  * @return {String}
  */
 const buzzshit = function(input, replacement = '💩') {
-  let output = input;
-
-  words.forEach((word) => {
-    const regexp = new RegExp(`\\b${word}\\b`, 'gim');
-    output = output.replace(regexp, replacement);
-  });
-
-  return output;
+  return input.replace(regexp, replacement);
 };
 
 module.exports = buzzshit;
