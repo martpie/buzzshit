@@ -2,7 +2,7 @@
 
 Buzzshit is a small JavaScript library to replace any bullshit words in a string by something a bit more realistic.
 
-###  What is a bullshit word?
+##  What is a bullshit word?
 
 > It is something that no one truly understands, not even nerds, but it still used by marketing guys to sell things nobody can do.
 
@@ -10,13 +10,13 @@ Another definition could be:
 
 > Any word that makes no sense in a LinkedIn post.
 
-### Usage
+## Usage
 
 ```
 buzzshit(input[, replacement])
 ```
 
-##### Parameters
+#### Parameters
 
 `input`<br />
 A string as-if provided by your average business manager.
@@ -24,11 +24,11 @@ A string as-if provided by your average business manager.
 `replacement` (optional)<br />
 Whatever you would like buzzwords to be replaced with.
 
-###### Return value
+#### Return value
 
 The string as it should have been from the beginning.
 
-### Examples
+## Examples
 
 ``` JavaScript
 import buzzshit from 'buzzshit';
