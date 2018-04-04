@@ -1,6 +1,8 @@
-# buzzshit
+# Buzzshit
 
 Buzzshit is a small JavaScript library to replace any bullshit words in a string by something a bit more realistic.
+
+Based on a brilliant idea from @SimonKuemin.
 
 ###  What is a bullshit word?
 
