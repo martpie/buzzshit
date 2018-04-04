@@ -1,7 +1,7 @@
 {
   "name": "buzzshit",
   "version": "0.1.0",
-  "description": "Replace all buzzwords by BULLSHIT or any other word ",
+  "description": "Replace any bullshit words in a string by something more realistic",
   "main": "src/buzzshit.js",
   "scripts": {
     "test": "jest"
