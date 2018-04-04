@@ -27,6 +27,7 @@ module.exports = [
   'digital productivity',
   'disruption',
   'disruptive',
+  'diy',
   'down round',
   'growth hacking',
   'ico',
