@@ -1,14 +1,14 @@
 # buzzshit
 
-Buzzshit is a small JavaScript library to replace any buzzwords in a string by something a bit more realistic.
+Buzzshit is a small JavaScript library to replace any bullshit words in a string by something a bit more realistic.
 
 ###  What is a bullshit word?
 
 > It is something that no one truly understands, not even nerds, but it still used by marketing guys to sell things nobody can do.
 
-Another definition would be:
+Another definition could be:
 
-> any word that makes no sense in a LinkedIn post.
+> Any word that makes no sense in a LinkedIn post.
 
 ### Usage and examples
 
